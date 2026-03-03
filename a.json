@@ -1,0 +1,30 @@
+{
+  "app": "my-service",
+  "version": "1.0.0",
+  "debug": true,
+  "maxRetries": 3,
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "role": "admin",
+      "address": {
+        "city": "London",
+        "country": "UK",
+        "zip": "EC1A 1BB"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "role": "user"
+    }
+  ],
+  "features": ["auth", "billing", "notifications"],
+  "meta": {
+    "createdAt": "2024-01-01",
+    "deprecated": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "app": "my-service",
+  "version": "2.0.0",
+  "debug": false,
+  "maxRetries": 5,
+  "timeout": 30,
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@newdomain.com",
+      "role": "superadmin",
+      "address": {
+        "city": "Manchester",
+        "country": "UK",
+        "zip": "M1 1AE",
+        "postcode": "M1 1AE"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "role": "user"
+    }
+  ],
+  "features": ["auth", "billing", "analytics", "webhooks"],
+  "meta": {
+    "createdAt": "2024-01-01",
+    "updatedAt": "2025-01-01"
+  }
+}

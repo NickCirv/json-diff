@@ -1,0 +1,30 @@
+{
+  "name": "json-diff",
+  "version": "1.0.0",
+  "description": "Diff two JSON files with tree, unified, side-by-side, or JSON output. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "json-diff": "./index.js",
+    "jdiff": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "json",
+    "diff",
+    "comparison",
+    "api-testing",
+    "developer-productivity"
+  ],
+  "license": "MIT",
+  "author": "NickCirv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/json-diff"
+  }
+}
