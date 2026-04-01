@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # json-diff
 
 Diff two JSON files and show structural differences clearly. Zero external dependencies — built-in Node.js modules only.
